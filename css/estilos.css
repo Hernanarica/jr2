@@ -1,0 +1,31 @@
+#footer{
+    background: #2c3e50;
+    color: white;
+    padding: 1em 0;
+}
+#app{
+    list-style: none;
+}
+body{
+    background: #fffef7;
+    font-weight: 400;
+}
+.wsp{
+    position: fixed;
+    right: 1.5em;
+    bottom: 1em;
+    z-index: 9999;
+    background: #25d366;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wsp a svg{
+    font-size: 2em;
+    color: #ffffff;
+}
